@@ -7,6 +7,7 @@ function pesquisar() {
     //se campoPesquisa for uma string sem nada
     if (!campoPesquisa) {
         section.innerHTML = "Nada foi pesquisado. Busque algo no campo de pesquisa."
+        section.innerHTML = "<p><span class='destaque'>Nada foi pesquisado. Busque algo no campo de pesquisa.</span></p>";
         return
     }
 
@@ -40,7 +41,7 @@ function pesquisar() {
     }
 
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p class='sem-resultados'>Nada foi encontrado</p>"
     }
     // Atribui a string com os resultados ao conteúdo HTML da seção
     section.innerHTML = resultados;
