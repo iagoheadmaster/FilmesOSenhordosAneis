@@ -51,7 +51,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #2b1e01; /* Cor do texto */
+    color: #3c2a01; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -69,7 +69,8 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #cb8f02; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #fad88a; /* Muda a cor de fundo ao passar o mouse */
+    color: #3c2a01; /* Cor do texto do botão */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
@@ -115,10 +116,36 @@ section button:hover {
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
+/* Estiliza a mensagem de erro ao pesquisar vazio */
+.destaque {
+    color: #ff0000;
+    background-color: #fad88a;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estiliza a mensagem de erro ao pesquisar um resultado inválido */
+.sem-resultados {
+    color: #ff0000;
+    background-color: #fad88a;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
 /* Estiliza o rodapé da página */
 footer {
     background-color: #00000094; /* Cor de fundo do rodapé */
-    color: #eaf9ea; /* Cor do texto */
+    color: #fad88a; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
